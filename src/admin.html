@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link  rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/admin.css">
+
+
+    <title></title>
+</head>
+<body>
+
+
+<div class="navbar-fixed-top navbar-inverse navbar-statica" >
+    <div class="container">
+
+        <a href="#" class="navbar-brand">Restaurant</a>
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> Button </button>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="Home.html">Home </a> </li>
+                <li><a href="Home.html">Login</a> </li>
+                <li><a href="reserve.html">Reserve</a> </li>
+                <li><a href="#">Help</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- View Reservation -->
+<div class="text-center">
+    <h2 id="seating">Reservations</h2>
+</div>
+
+<div class="container" id="reslis">
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-responsive">
+                <tr id="heading">
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Reservation ID
+                    </th>
+                    <th>
+                        Time
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        1
+                    </th>
+                    <th>
+                        <a href="#myModal" role="button" class="btn" data-toggle="modal" data-target="#myModal">1RES15207</a>
+                    </th>
+                    <th>
+                        8:30 PM
+                    </th>
+                    <th>
+                        8/11/2015
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        2
+                    </th>
+                    <th>
+                        <a href="#myModal" role="button" class="btn" data-toggle="modal" data-target="#myModal"> 1RES15208</a>
+                    </th>
+                    <th>
+                        2:30 PM
+                    </th>
+                    <th>
+                        8/13/2015
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        3
+                    </th>
+                    <th>
+                        <a href="#myModal" role="button" class="btn" data-toggle="modal" data-target="#myModal"> 1RES15209 </a>
+                    </th>
+                    <th>
+                        6:30 PM
+                    </th>
+                    <th>
+                        8/11/2015
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Reservation Details - 1RES15207 </h4>
+            </div>
+            <div class="modal-body">
+                <br>
+
+                <div class="tab-pane fade active in" id="resdetails">
+                    <ul class="list-group">
+                        <li class="list-group-item"> Name       : Jack </li>
+                        <li class="list-group-item"> Time       : 8:30 PM</li>
+                        <li class="list-group-item"> Date       : 8/11/2015</li>
+                        <li class="list-group-item"> Party Size : 4</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="text-center">
+    <h2 id="seating">Seating Area</h2>
+</div>
+<div class="container" id="sealis" style="margin-top: 5%">
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-responsive borderless" id="seat">
+                <thead>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg"> Table 1</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 2</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 3</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 4</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 5</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 6</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 7</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 8</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 9</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 10</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 11</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 12</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 13</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 14</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg">Table 15</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-primary btn-lg" data-target="">Table 16</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
